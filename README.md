@@ -27,3 +27,7 @@ Other software channels:
 
 
 Please add more....
+
+
+## Please feel free to migrate some projects from the official list to the github repo if you feel like.
+
