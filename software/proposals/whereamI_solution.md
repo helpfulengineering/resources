@@ -73,6 +73,7 @@ WARNING -> It could have issues related to crime as one can track everyone's loc
 We could only provide the last 30m location and in case of infection we could share the data 
 with Hospitals/Gov/ETC
 
+Prob radius needs to be wider 2km or more and center of radius random. Or even wider 10KM was discussed in another fork.
 
 ## ✅ "I've read this" section
 
