@@ -21,7 +21,7 @@ Other software channels:
 * [Gamification System to Reward Preventional Behaviours](https://docs.google.com/document/d/17r9KWWvIOUGAc0LWlvV6XlP1gR7LOLXnFTYUYTZZLlc/edit#heading=h.7ckm96og92vf)
 
 ## Repo structure
-å
+
 ```
 Readme.md
 software
