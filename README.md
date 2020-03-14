@@ -6,7 +6,7 @@ The scope of this document is to aggregate all the software project proposals un
 
 A good starting point is our [Start document](https://docs.google.com/document/d/1cM87eJdXhP_8e9gJJZ_SnZXdo_huWsBmMzcqYWbhEOg/edit#)
 
-In order to submit a new idea, please refer to the following [template.](https://docs.google.com/document/d/17r9KWWvIOUGAc0LWlvV6XlP1gR7LOLXnFTYUYTZZLlc/edit#heading=h.7ckm96og92vf)
+In order to submit a new idea, please refer to the following [template.](https://docs.google.com/document/d/1EQV5o8PHnuWJVn_pNFHlXyUQVD0FLCCMJQsT7IqFt8s/edit#heading=h.7ckm96og92vf)
 
 Once your proposal is ready, you can both share it in the `#software-project-proposal` room. Clone this repo and create a new branch with the format PROJECT-[your-project-name] and submit a PR to this repo.  Reach out to our slack channel #software for any questions.
 
@@ -20,6 +20,22 @@ Other software channels:
 * [Helpful Engineering Community](https://docs.google.com/document/d/1qYduD0ZmTZG1Ox5on_MBXrQabxdpd_ueiPN9SDq6ik4/edit?usp=sharing)
 * [Gamification System to Reward Preventional Behaviours](https://docs.google.com/document/d/17r9KWWvIOUGAc0LWlvV6XlP1gR7LOLXnFTYUYTZZLlc/edit#heading=h.7ckm96og92vf)
 
+## Repo structure
+å
+```
+Readme.md
+software
+  - template.md
+  - proposals/
+      - foo.md
+      - bar.md
+hardware
+  - template.md
+  - proposals/
+      - foo.md
+      - bar.md
 
-## Please feel free to migrate some projects from the official list to the github repo.
+```
+## Please feel free to migrate some projects from the official list to the github repo if you feel like.
+
 
