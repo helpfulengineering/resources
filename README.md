@@ -24,6 +24,7 @@ Other software channels:
 
 * [Helpful Engineering Community](https://docs.google.com/document/d/1qYduD0ZmTZG1Ox5on_MBXrQabxdpd_ueiPN9SDq6ik4/edit?usp=sharing)
 * [Gamification System to Reward Preventional Behaviours](https://docs.google.com/document/d/17r9KWWvIOUGAc0LWlvV6XlP1gR7LOLXnFTYUYTZZLlc/edit#heading=h.7ckm96og92vf)
+* [Web medical "call" center](https://docs.google.com/document/d/13cNIM_PWvbFmaYsoT6gMaCJ0JvitNA_yxzuInR1Tw7Q/edit?usp=sharing)
 
 
 More....
