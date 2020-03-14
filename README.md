@@ -15,12 +15,6 @@ Other software channels:
 * `#software`: Discussions on ongoing projects: ask for help, beta testers, bugs etc
 * `#meta-proposals-discussion`: Discussions on hardware and software application (web), and software (data science) proposals.  
 
-[Current official Project List](https://docs.google.com/document/d/1BwKbX884kILyBl_gzp-rfDVQ--BRB_7ZOE-T37N7Uxs/edit#heading=h.j1ba0wxfh484)
-
-* [Helpful Engineering Community](https://docs.google.com/document/d/1qYduD0ZmTZG1Ox5on_MBXrQabxdpd_ueiPN9SDq6ik4/edit?usp=sharing)
-* [Gamification System to Reward Preventional Behaviours](https://docs.google.com/document/d/17r9KWWvIOUGAc0LWlvV6XlP1gR7LOLXnFTYUYTZZLlc/edit#heading=h.7ckm96og92vf)
-* [Web medical "call" center](https://docs.google.com/document/d/13cNIM_PWvbFmaYsoT6gMaCJ0JvitNA_yxzuInR1Tw7Q/edit?usp=sharing)
-
 ## Repo structure
 
 ```
