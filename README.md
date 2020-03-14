@@ -8,7 +8,7 @@ The scope of this document is to aggregate all the software project proposals un
 
 A good starting point can also be our [Start document](https://docs.google.com/document/d/1cM87eJdXhP_8e9gJJZ_SnZXdo_huWsBmMzcqYWbhEOg/edit#)
 
-In order to submit a new idea, please refer to the following [template.](https://docs.google.com/document/d/17r9KWWvIOUGAc0LWlvV6XlP1gR7LOLXnFTYUYTZZLlc/edit#heading=h.7ckm96og92vf)
+In order to submit a new idea, please refer to the following [template.](https://docs.google.com/document/d/1EQV5o8PHnuWJVn_pNFHlXyUQVD0FLCCMJQsT7IqFt8s/edit#heading=h.7ckm96og92vf)
 
 
 
@@ -26,7 +26,22 @@ Other software channels:
 * [Gamification System to Reward Preventional Behaviours](https://docs.google.com/document/d/17r9KWWvIOUGAc0LWlvV6XlP1gR7LOLXnFTYUYTZZLlc/edit#heading=h.7ckm96og92vf)
 
 
-Please add more....
+More....
+
+Repo structure
+```
+Readme.md
+software
+  - template.md
+  - proposals/
+      - foo.md
+      - bar.md
+hardware
+  - template.md
+  - proposals/
+      - foo.md
+      - bar.md
+```
 
 
 ## Please feel free to migrate some projects from the official list to the github repo if you feel like.
