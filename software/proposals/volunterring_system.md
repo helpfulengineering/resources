@@ -1,16 +1,19 @@
 | | |
 |-|-|
 | Proposal Stage | Draft     |
-| Tags           |      |
+| Tags           | volunteer, impact     |
 | Created Date   |      |
 | Lead           | Charles He     |
-| Slack Channel  |      |
+| Slack Channel  | project-volunteer_app     |
 
 ## 📃 Idea in brief: Question to be resolved and why
 
 ### 💥 Problem
 
-There are capable people who are recovered and immune to the virus and were trained in anti-septic techniques.These people could volunteer at hospitals, performing menial but critical roles in assisting nurses.
+A general volunteer systes that helps people find opportunities to help others. Volunteers will be able to flag if they are comfortable working with sick people, and organizations can on-board volunteers quickly and easily.
+
+For example, there are capable people who are recovered and immune to the virus and were trained in anti-septic techniques.These people could volunteer at hospitals, performing menial but critical roles in assisting nurses.
+
 
 ### 👨‍🔬Hypothesis
 
@@ -26,6 +29,8 @@ This system would need user accounts, forms and waivers, GPS locations of hospit
 
 ### What it is
 
+A generic system that will help organizations quickly onboard volunteers, and volunteers to find opportunities.
+
 ### What it is not
 
 ### Design
@@ -34,7 +39,11 @@ This system would need user accounts, forms and waivers, GPS locations of hospit
 
 ## 💪 Impact of Potential Solution
 
+Help people match themselves with opportunities to help
+
 ## 🙌 Criteria for Success
+
+* Create connections between volunteers and opportunities
 
 ## 😅 Known Issues
 
