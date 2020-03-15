@@ -3,10 +3,14 @@
 | Proposal Stage |  Draft    |
 | Tags           |      |
 | Created Date   |      |
-| Lead           |  Doug (author)    |
+| Author         | Doug |
+| Leads          | Jao Faria, Lucia Carreira |
 | Slack Channel  |      |
+| Trello Board   | https://trello.com/b/2QLITR5U/neighbourhood-assistance |
 
 ## 📃 Idea in brief: Question to be resolved and why
+
+## To be migrated from Google doc
 
 ### 💥 Problem
 
@@ -24,6 +28,8 @@ Software to help people organize neighborhood assistance.
 ## 💻Implementation Suggestion
 
 ### V1
+
+### Lucia and Joao here
 
 ### What it is
 
