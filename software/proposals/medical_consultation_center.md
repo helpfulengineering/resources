@@ -1,5 +1,8 @@
+---
+path: "/projects/software/medical_consultation_center"
+title: "Medication Consultation Center"
+---
 
-# PLEASE COPY THE DOCUMENT AND START YOUR PROPOSAL ON YOUR COPY 
 | | |
 |-|-|
 | Proposal Stage |  Initial   |

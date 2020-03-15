@@ -1,3 +1,8 @@
+---
+path: "/projects/software/quarantine_location_tracking"
+title: "Quarantine Location Tracking"
+---
+
 | | |
 |-|-|
 | Proposal Stage |   Draft   |

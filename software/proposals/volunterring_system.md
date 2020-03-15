@@ -1,3 +1,8 @@
+---
+path: "/projects/software/volunteering_system"
+title: "Volunteering System"
+---
+
 | | |
 |-|-|
 | Proposal Stage | Draft     |

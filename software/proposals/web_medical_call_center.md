@@ -1,3 +1,7 @@
+---
+path: "/projects/software/web_medical_call_center"
+title: "Web Medical Call Center"
+---
 
 # Web medical "call" center
 | | |

@@ -1,3 +1,8 @@
+---
+path: "/projects/software/worldwide_radio_equipment"
+title: "Worldwide Radio Equipment"
+---
+
 | | |
 |-|-|
 | Proposal Stage |  Draft    |

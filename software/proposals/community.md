@@ -1,3 +1,7 @@
+---
+path: "/projects/software/community"
+title: "Community"
+---
 
 # Helpful Engineers Community
 | | |

@@ -1,3 +1,7 @@
+---
+path: "/projects/software/hardware-production-capabilities-database"
+title: "Hardware Production Capabilities Database"
+---
 
 | | |
 |-|-|

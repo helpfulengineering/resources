@@ -1,3 +1,8 @@
+---
+path: "/projects/software/whereamI_solution"
+title: "Where Am I Solution"
+---
+
 | | |
 |-|-|
 | Proposal Stage |  Draft    |
