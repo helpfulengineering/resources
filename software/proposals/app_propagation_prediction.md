@@ -15,6 +15,12 @@
 App to add info/track/ predict the possible chain of contagion/virus propagation.
 More info: https://docs.google.com/document/d/1UQCywLH887-IzYAxvYp6REkH-uN9XBqZUPMVhWiEho0/edit
 
+#### Related work
+
+* https://github.com/sarusso/Covid-pred
+* http://covid-pred.xyz/predictions/ (author aware of various problems with it)
+* spreadsheet of UK with simple exponential  (no control measures or population dynamics modelled in)
+
 ### 🤔 Assumptions
 
 ## 💻Implementation Suggestion
