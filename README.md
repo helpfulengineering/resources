@@ -31,6 +31,10 @@ hardware
       - bar.md
 
 ```
+
+## Helpful Engineering Software Projects Sign-Up:
+[Register yourself here](https://docs.google.com/forms/d/1PXSmMU-MOshe-qZCk3wqHHxA8LN6gN5VSj_gWCABjGQ/viewform?edit_requested=true)
+
 ## Please feel free to migrate some projects from the official list to the github repo if you feel like.
 
 
