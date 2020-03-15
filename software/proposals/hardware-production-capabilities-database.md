@@ -71,6 +71,7 @@ Data is already coming in through other means.
 Notably the volunteer Google form.
 1. We need to integrate/replace that process.
 1. Import data (probably manual work) from existing submissions. 
+1. Overlapping idea with now already existing spreadsheet: https://docs.google.com/spreadsheets/d/1t3UVO1YkxWyhBxVFT-uMTBt4iTljawjjs_iTuS8W6yE/edit#gid=0
 
 ## ✅ "I've read this" section
 Add in the table below the people you definitely want their eyes on this proposal. Sometimes there are no comments to be made but it's good to know people have read the proposal
