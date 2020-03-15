@@ -1,3 +1,9 @@
+---
+path: "/projects/software/your_project_url_slug"
+title: "Your Project Name"
+---
+
+# The above values are used for the website, please make sure to fill them out.
 
 # PLEASE COPY THE DOCUMENT AND START YOUR PROPOSAL ON YOUR COPY 
 | | |
