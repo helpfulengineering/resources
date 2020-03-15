@@ -1,0 +1,73 @@
+{
+  "name": "awesome-gatsby-starter",
+  "version": "2.0.0",
+  "description": "A starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint environment",
+  "keywords": [
+    "gatsby",
+    "gatsby-starter"
+  ],
+  "homepage": "https://github.com/South-Paw/awesome-gatsby-starter",
+  "bugs": "https://github.com/South-Paw/awesome-gatsby-starter/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Alex Gabites",
+    "email": "hello@southpaw.co.nz",
+    "url": "http://southpaw.co.nz/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/South-Paw/awesome-gatsby-starter"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "build:storybook": "cross-env NODE_ENV=production build-storybook -c .storybook -o public/docs",
+    "clean": "rimraf ./.cache ./public",
+    "start": "gatsby develop",
+    "start:storybook": "cross-env NODE_ENV=production start-storybook -p 9000 -c .storybook",
+    "lint": "eslint .",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.5.1",
+    "@mdx-js/react": "^1.5.1",
+    "gatsby": "^2.17.11",
+    "gatsby-image": "^2.2.31",
+    "gatsby-plugin-manifest": "^2.2.27",
+    "gatsby-plugin-mdx": "^1.0.56",
+    "gatsby-plugin-offline": "^3.0.19",
+    "gatsby-plugin-react-helmet": "^3.1.14",
+    "gatsby-plugin-sharp": "^2.2.37",
+    "gatsby-plugin-styled-components": "^3.1.12",
+    "gatsby-source-filesystem": "^2.1.36",
+    "gatsby-transformer-sharp": "^2.3.3",
+    "polished": "^3.4.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-uid": "^2.2.0",
+    "styled-components": "^4.4.1",
+    "styled-normalize": "^8.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@storybook/addon-actions": "^5.2.6",
+    "@storybook/addon-docs": "^5.2.6",
+    "@storybook/react": "^5.2.6",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-compat": "^3.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.3",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "prettier": "^1.19.1",
+    "react-markdown": "^4.2.2"
+  }
+}

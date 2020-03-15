@@ -1,20 +1,13 @@
-### Linux ###
-*~
+# project dependencies
+.cache
+node_modules
+yarn-error.log
 
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
+# build directory
+public
 
-# KDE directory preferences
-.directory
+# generated folders
+coverage
 
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
-
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
-
-### OSX ###
-# General
+# OS generated files
 .DS_Store
-.AppleDouble
-.LSOverride

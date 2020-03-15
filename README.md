@@ -1,40 +1,66 @@
-# Helpful Engineering
+# awesome-gatsby-starter
 
-## Software proposals
+👌 A starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint environment
 
-The scope of this document is to aggregate all the software project proposals under [Helpful Engineering, Project Open air](https://www.projectopenair.org/). If you didn't join yet you can find our Slack group [here](https://join.slack.com/t/helpfulengineering/shared_invite/zt-csc50xh2-fUHR8BDGIqPDVyadU73roA).
+[![Netlify Status][netlify-master-status-img]][netlify-master-status]
+[![Dependencies](https://david-dm.org/South-Paw/awesome-gatsby-starter/status.svg)](https://david-dm.org/South-Paw/awesome-gatsby-starter)
+[![Dev Dependencies](https://david-dm.org/South-Paw/awesome-gatsby-starter/dev-status.svg)](https://david-dm.org/South-Paw/awesome-gatsby-starter?type=dev)
 
-A good starting point is our [Start document](https://docs.google.com/document/d/1cM87eJdXhP_8e9gJJZ_SnZXdo_huWsBmMzcqYWbhEOg/edit#)
+## Features
 
-In order to submit a new idea, please refer to the following [template.](https://github.com/Helpful-Engineers/resources/blob/master/software/template.md)
+- [Gatsby MDX](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/) for creation of pages with Markdown + JSX
+- [Storybook](https://storybook.js.org/) with the Storybook Docs addon and support for components that use Gatsby components such as Link and StaticQuery
+- [styled-components](https://www.styled-components.com/) for CSS-in-JS
+- [ESLint](https://eslint.org/) with [Airbnb's config](https://www.npmjs.com/package/eslint-config-airbnb)
+- [Prettier](https://prettier.io/) integrated into ESLint
+- A few example components and pages with stories and simple site structure
 
-Once your proposal is ready, you can both share it in the `#software-project-proposal` room. Clone this repo and create a new branch with the format PROJECT-[your-project-name] and submit a PR to this repo.  Reach out to our slack channel #software for any questions.
+## Getting started
 
-Other software channels:
-* `#medical-software` Main landing channel with general discussion.
-* `#software`: Discussions on ongoing projects: ask for help, beta testers, bugs etc
-* `#meta-proposals-discussion`: Discussions on hardware and software application (web), and software (data science) proposals.  
+Install this starter (assuming you have [`gatsby-cli`](https://www.npmjs.com/package/gatsby-cli) installed) by running the following command:
 
-## Repo structure
-
-```
-Readme.md
-software
-  - template.md
-  - proposals/
-      - foo.md
-      - bar.md
-hardware
-  - template.md
-  - proposals/
-      - foo.md
-      - bar.md
-
+```bash
+gatsby new your-projects-name https://github.com/South-Paw/awesome-gatsby-starter
 ```
 
-## Helpful Engineering Software Projects Sign-Up:
-[Register yourself here](https://docs.google.com/forms/d/1PXSmMU-MOshe-qZCk3wqHHxA8LN6gN5VSj_gWCABjGQ/viewform?edit_requested=true)
+## Development
 
-## Please feel free to migrate some projects from the official list to the github repo if you feel like.
+Install [`Node.js`](https://nodejs.org/) and [`Yarn`](https://yarnpkg.com).
 
+Open the project directory in your CLI and run the `yarn` command to install dependencies.
 
+After that you can run any of following commands
+
+```bash
+# local development (localhost:8000)
+yarn start
+
+# storybook development (localhost:9000)
+yarn start:storybook
+
+# run eslint on project
+yarn lint
+
+# build site for deployment (/public)
+yarn build
+
+# build storybook for deployment (/public/storybook)
+yarn build:storybook
+
+# local gatsby serve of /public
+yarn serve
+
+# clean build artifacts (/.cache and /public)
+yarn clean
+```
+
+## Issues and Bugs
+
+If you manage to find any, please report them [here](https://github.com/South-Paw/awesome-gatsby-starter/issues) so they can be squashed.
+
+## License
+
+MIT, see the [LICENSE](https://github.com/South-Paw/awesome-gatsby-starter/blob/master/LICENSE) file.
+
+[netlify-master-status-img]: https://api.netlify.com/api/v1/badges/f517f897-7c3d-427a-a46f-11e07daa2d96/deploy-status
+[netlify-master-status]: https://app.netlify.com/sites/awesome-gatsby-starter/deploys
