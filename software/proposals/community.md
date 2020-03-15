@@ -38,6 +38,8 @@ Store and categorize all the shared knowledge/resources out from a chat.
 Current Feature List:
 * User management with their skill set.
 * Project management with categories.
+* User search based on skills
+* Project search based on skills
 
 ## 💻Implementation Suggestion
 
