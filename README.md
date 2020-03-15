@@ -35,6 +35,11 @@ hardware
 ## Helpful Engineering Software Projects Sign-Up:
 [Register yourself here](https://docs.google.com/forms/d/1PXSmMU-MOshe-qZCk3wqHHxA8LN6gN5VSj_gWCABjGQ/viewform?edit_requested=true)
 
+## Official Projects Repositories:
+|Project name|Repository URL|Slack Channel|
+|-|-|-|
+|Neighbourhood Assistance|https://github.com/puzzledbytheweb/neighborhood-assistance|#neighborhood-assistance|
+
 ## Please feel free to migrate some projects from the official list to the github repo if you feel like.
 
 
