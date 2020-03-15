@@ -1,3 +1,8 @@
+---
+path: "/projects/software/person_projective_equipment"
+title: "Person Projective Equipment"
+---
+
 | | |
 |-|-|
 | Proposal Stage |  Draft    |

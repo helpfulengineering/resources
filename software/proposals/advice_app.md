@@ -1,3 +1,8 @@
+---
+path: "/projects/software/advice_app"
+title: "Advice App"
+---
+
 | | |
 |-|-|
 | Proposal Stage |  Draft    |

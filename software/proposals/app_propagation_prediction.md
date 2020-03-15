@@ -1,3 +1,8 @@
+---
+path: "/projects/software/app_propagation_prediction"
+title: "App Propogation Prediction"
+---
+
 | | |
 |-|-|
 | Proposal Stage |   Draft   |

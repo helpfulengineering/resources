@@ -1,3 +1,8 @@
+---
+path: "/projects/software/sentiment_analysis"
+title: "Sentiment Analysis"
+---
+
 | | |
 |-|-|
 | Proposal Stage |   Draft   |

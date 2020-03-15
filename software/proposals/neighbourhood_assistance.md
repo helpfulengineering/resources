@@ -1,3 +1,8 @@
+---
+path: "/projects/software/neighbourhood_assistance"
+title: "Neighbourhood Assistance"
+---
+
 | | |
 |-|-|
 | Proposal Stage |  Draft    |

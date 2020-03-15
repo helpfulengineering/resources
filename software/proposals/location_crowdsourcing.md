@@ -1,3 +1,8 @@
+---
+path: "/projects/software/location_crowdsourcing"
+title: "Location Crowdsourcing"
+---
+
 | | |
 |-|-|
 | Proposal Stage |  Draft    |

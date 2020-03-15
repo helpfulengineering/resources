@@ -1,3 +1,8 @@
+---
+path: "/projects/software/tracking_app"
+title: "Tracking App"
+---
+
 | | |
 |-|-|
 | Proposal Stage |  Draft    |

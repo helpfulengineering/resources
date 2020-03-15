@@ -1,3 +1,8 @@
+---
+path: "/projects/software/heatpmap_app"
+title: "Heatpmap App"
+---
+
 | | |
 |-|-|
 | Proposal Stage |   Draft   |

@@ -1,3 +1,8 @@
+---
+path: "/projects/software/app_quarantine_information"
+title: "App Quarantine Information"
+---
+
 | | |
 |-|-|
 | Proposal Stage |  Draft    |

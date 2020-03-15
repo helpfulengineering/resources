@@ -1,3 +1,8 @@
+---
+path: "/projects/software/web_app_resource_management"
+title: "Web App Resource Management"
+---
+
 | | |
 |-|-|
 | Proposal Stage |      |

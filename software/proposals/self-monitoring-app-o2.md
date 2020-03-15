@@ -1,3 +1,8 @@
+---
+path: "/projects/software/self-monitoring-app-o2"
+title: "Self Monitoring App O2"
+---
+
 **Zero2: Self-monitoring app**
 
 A mobile app to support individuals in checking their health and provide insights to structure a more effective medical help system.
