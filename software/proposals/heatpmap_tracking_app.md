@@ -5,7 +5,7 @@ title: "Heatpmap Tracking App"
 
 | | |
 |-|-|
-| Proposal Stage |   Draft   |
+| Proposal Stage |   Proposal   |
 | Tags           |   Location tracking, Google maps, Scheduling   |
 | Created Date   |   15/03/2020   |
 | Lead           |   Armando Santos   |
