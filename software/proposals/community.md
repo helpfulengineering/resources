@@ -2,11 +2,13 @@
 # Helpful Engineers Community
 | | |
 |-|-|
-| Proposal Stage | Proposal |
+| Proposal Stage | In progress |
 | Tags           | Community |
 | Created Date   | March 14th |
-| Lead           | Alberto Mazaira |
-| Slack Channel  | #software-project-proposals |
+| Lead           | João Neves |
+| Slack Channel  | #software-project-proposals, #outsystem-experts |
+| Trello Board.  | https://trello.com/b/eTcMxCh6/project-open-air |
+| Site URL| https://projectopenair.outsystemscloud.com/ProjectOpenAir |
 
 ## 📃 Idea in brief: Question to be resolved and why
 
@@ -29,11 +31,15 @@ We need a community platform that would:
 Store and categorize all the shared knowledge/resources out from a chat.
 
 
-### 🤔 Assumptions
-* We currently have some web developers that could set it up fast.
-* We would use this as first try out to set up AWS VMs, a jenkins pipeline, organization over github etc. A full end to end delivery, without a risky scope.
-* We would use this as a first team setup exercise.
+## Implementation Status
 
+* Platform delivered over a low-code tool named [Outsystems](https://www.outsystems.com/)
+
+Current Feature List:
+* User management with their skill set.
+* Project management with categories.
+* User search based on skills
+* Project search based on skills
 
 ## 💻Implementation Suggestion
 
