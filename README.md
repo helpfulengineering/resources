@@ -13,11 +13,11 @@
 
 ## Getting started
 
-Install this starter (assuming you have [`gatsby-cli`](https://www.npmjs.com/package/gatsby-cli) installed) by running the following command:
+You don't need to do anything, this project is automatically built whenever you commit to `master`. (TODO)
 
-```bash
-gatsby new your-projects-name https://github.com/South-Paw/awesome-gatsby-starter
-```
+1. A commit arrives on the master branch.
+2. A CI job picks up this commit and runs the code in this branch.
+3. The built HTML is commited to the `gh-pages` branch which is then served by Github Pages
 
 ## Development
 
@@ -42,6 +42,9 @@ yarn build
 
 # build storybook for deployment (/public/storybook)
 yarn build:storybook
+
+# deploy site to github pages (served at /resources and /resources/docs)
+yarn deploy
 
 # local gatsby serve of /public
 yarn serve
