@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{RXBc:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),r=t.n(n),o=t("Wbzz"),c=t("Bl7J"),l=t("vrFN");a.default=function(){return r.a.createElement(c.a,null,r.a.createElement(l.a,{title:"Home"}),r.a.createElement("p",null,"There are many projects you can get involved with, please choose a category."),r.a.createElement(o.Link,{to:"/hardware/"},"Hardware")," |",r.a.createElement(o.Link,{to:"/software/"},"Software"))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-98fb7f9160f8c5dbb873.js.map

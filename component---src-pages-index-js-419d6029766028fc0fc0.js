@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{RXBc:function(e,n,a){"use strict";a.r(n);a("91GP");var t=a("q1tI"),c=a.n(t),s=a("R3xB"),l=a("OKcn"),o={title:"Home"};n.default=function(e){var n=Object.assign({},e);return c.a.createElement(s.a,Object.assign({seo:o},n),c.a.createElement(l.a,null,c.a.createElement("p",null,"Welcome, please use the nav links above")))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-419d6029766028fc0fc0.js.map
