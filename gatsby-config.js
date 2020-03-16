@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    name: 'HelpfulEngineer Resources',
+    name: 'Helpful-Engineer Resources',
     basepath: 'https://helpful-engineer.github.io/resources',
     description: 'A list of project proposals for the HelpfulEngineer project.',
     keywords: ['gatsby', 'gatsbyjs', 'helpfulengineer', 'covid'],

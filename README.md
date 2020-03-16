@@ -1,6 +1,6 @@
 # helpful-engineers-resources
 
-👌 A static site generator using data from `master` branch to feed a GatsbyJS project with a preconfigured MDX, Storybook and ESLint environment
+👌 A static site generator using data from `master` branch and a GatsbyJS project with MDX, Storybook and ESLint to generate HTML.
 
 ## Features
 
@@ -15,7 +15,7 @@
 
 You don't need to do anything, this project is automatically built whenever you commit to `master`. (TODO)
 
-1. A commit arrives on the master branch.
+1. A commit arrives on the `master` branch.
 2. A CI job picks up this commit and runs the code in this branch.
 3. The built HTML is commited to the `gh-pages` branch which is then served by Github Pages
 
@@ -59,4 +59,4 @@ If you manage to find any, please report them [here](https://github.com/Helpful-
 
 ## License
 
-MIT, see the [LICENSE](https://github.com/Helpful-Engineers/resources/blob/master/LICENSE) file.
+[LICENSE](https://github.com/Helpful-Engineers/resources/blob/master/LICENSE)

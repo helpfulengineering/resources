@@ -16,7 +16,7 @@ const Footer = () => (
         </Left>
         <Right>
           <div>
-            <Link to="/docs">Storybook</Link>
+            <Link href="/docs/">Storybook</Link>
           </div>
         </Right>
       </Inner>
