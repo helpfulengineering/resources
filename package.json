@@ -21,7 +21,7 @@
     "build": "gatsby build",
     "build:storybook": "cross-env NODE_ENV=production build-storybook -c .storybook -o public/docs",
     "clean": "rimraf ./.cache ./public",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && cross-env NODE_ENV=production build-storybook -c .storybook -o public/docs && gh-pages -d public",
     "start": "gatsby develop",
     "start:storybook": "cross-env NODE_ENV=production start-storybook -p 9000 -c .storybook",
     "lint": "eslint .",
