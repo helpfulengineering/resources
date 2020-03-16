@@ -1,8 +1,8 @@
-
 ---
 path: "/projects/software/artful_websites"
 title: "Artful Websites"
 ---
+
 | | |
 |-|-|
 | Proposal Stage |  Draft    |
