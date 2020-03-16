@@ -1,15 +1,30 @@
 module.exports = {
   siteMetadata: {
-    name: 'Awesome Gatsby Starter',
-    basepath: 'https://awesome-gatsby-starter.netlify.com',
-    description: 'A starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint environment',
-    keywords: ['gatsby', 'gatsbyjs', 'gatsby starter', 'github'],
+    name: 'HelpfulEngineer Resources',
+    basepath: 'https://helpful-engineer.github.io/resources',
+    description: 'A list of project proposals for the HelpfulEngineer project.',
+    keywords: ['gatsby', 'gatsbyjs', 'helpfulengineer', 'covid'],
     type: 'website',
-    image: 'https://awesome-gatsby-starter.netlify.com/ok.png',
+    image: 'https://helpful-engineer.github.io/ok.png',
   },
+  pathPrefix: '/resources', // this is for gh-pages
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'hardware',
+        path: `${__dirname}/hardware/proposals/`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'software',
+        path: `${__dirname}/software/proposals/`,
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -17,12 +32,31 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
+    // {
+    //   resolve: `gatsby-source-git`,
+    //   options: {
+    //     name: `rpages`,
+    //     remote: `https://github.com/Helpful-Engineers/resources.git`,
+    //     // Optionally supply a branch. If none supplied, you'll get the default branch.
+    //     branch: `master`,
+    //     // Tailor which files get imported eg. import the docs folder from a codebase.
+    //     patterns: [`*`, `!*.md`]
+    //   }
+    // },
+    // {
+    //   resolve: "gatsby-plugin-page-creator",
+    //   options: {
+    //     path: `${__dirname}/src/posts`,
+    //   },
+    // },
+    // if we grab this from anywhere other than source-filesystem then use gatsby-plugin-page-creator
     {
-      resolve: 'gatsby-plugin-mdx',
+      resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: ['.mdx', '.md'],
         defaultLayouts: {
           pages: require.resolve('./src/templates/Page/index.js'),
+          default: require.resolve('./src/templates/Project/index.js'),
         },
       },
     },

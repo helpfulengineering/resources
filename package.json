@@ -1,18 +1,17 @@
 {
-  "name": "awesome-gatsby-starter",
-  "version": "2.0.0",
-  "description": "A starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint environment",
+  "name": "helpful-engineer-resources",
+  "version": "1.0.0",
+  "description": "A tool to list projects proposals with a preconfigured MDX, Storybook and ESLint environment",
   "keywords": [
-    "gatsby",
-    "gatsby-starter"
+    "helpful-engineer",
+    "covid"
   ],
-  "homepage": "https://github.com/South-Paw/awesome-gatsby-starter",
-  "bugs": "https://github.com/South-Paw/awesome-gatsby-starter/issues",
+  "homepage": "https://github.com/Helpful-Engineers/resources",
+  "bugs": "https://github.com/Helpful-Engineers/resources/issues",
   "license": "MIT",
   "author": {
-    "name": "Alex Gabites",
-    "email": "hello@southpaw.co.nz",
-    "url": "http://southpaw.co.nz/"
+    "name": "Hairy",
+    "email": "public@hairy.io"
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
     "build": "gatsby build",
     "build:storybook": "cross-env NODE_ENV=production build-storybook -c .storybook -o public/docs",
     "clean": "rimraf ./.cache ./public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "start": "gatsby develop",
     "start:storybook": "cross-env NODE_ENV=production start-storybook -p 9000 -c .storybook",
     "lint": "eslint .",
@@ -39,7 +39,9 @@
     "gatsby-plugin-sharp": "^2.2.37",
     "gatsby-plugin-styled-components": "^3.1.12",
     "gatsby-source-filesystem": "^2.1.36",
+    "gatsby-source-git": "^1.0.2",
     "gatsby-transformer-sharp": "^2.3.3",
+    "gh-pages": "^2.2.0",
     "polished": "^3.4.2",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",

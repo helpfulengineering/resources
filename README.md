@@ -1,10 +1,6 @@
-# awesome-gatsby-starter
+# helpful-engineers-resources
 
-👌 A starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint environment
-
-[![Netlify Status][netlify-master-status-img]][netlify-master-status]
-[![Dependencies](https://david-dm.org/South-Paw/awesome-gatsby-starter/status.svg)](https://david-dm.org/South-Paw/awesome-gatsby-starter)
-[![Dev Dependencies](https://david-dm.org/South-Paw/awesome-gatsby-starter/dev-status.svg)](https://david-dm.org/South-Paw/awesome-gatsby-starter?type=dev)
+👌 A static site generator using data from `master` branch to feed a GatsbyJS project with a preconfigured MDX, Storybook and ESLint environment
 
 ## Features
 
@@ -56,11 +52,8 @@ yarn clean
 
 ## Issues and Bugs
 
-If you manage to find any, please report them [here](https://github.com/South-Paw/awesome-gatsby-starter/issues) so they can be squashed.
+If you manage to find any, please report them [here](https://github.com/Helpful-Engineers/resources/issues) so they can be squashed.
 
 ## License
 
-MIT, see the [LICENSE](https://github.com/South-Paw/awesome-gatsby-starter/blob/master/LICENSE) file.
-
-[netlify-master-status-img]: https://api.netlify.com/api/v1/badges/f517f897-7c3d-427a-a46f-11e07daa2d96/deploy-status
-[netlify-master-status]: https://app.netlify.com/sites/awesome-gatsby-starter/deploys
+MIT, see the [LICENSE](https://github.com/Helpful-Engineers/resources/blob/master/LICENSE) file.

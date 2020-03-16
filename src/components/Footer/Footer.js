@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'gatsby';
+
 import { Container } from '../ui/Container';
 import { StyledFooter, Inner, Left, Right } from './styled';
 
@@ -9,26 +11,12 @@ const Footer = () => (
       <Inner>
         <Left>
           <div>
-            Contribute on <a href="https://github.com/South-Paw/awesome-gatsby-starter">Github</a>.
-          </div>
-          <div>
-            Created with{' '}
-            <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">
-              Gatsby
-            </a>
-            .
+            Contribute on <a href="https://github.com/Helpful-Engineers/resources">Github</a>.
           </div>
         </Left>
         <Right>
           <div>
-            Copyright ©{' '}
-            <a href="https://southpaw.co.nz" target="_blank" rel="noopener noreferrer">
-              Alex Gabites
-            </a>
-            , 2019.
-          </div>
-          <div>
-            <a href="https://github.com/South-Paw/awesome-gatsby-starter/blob/master/LICENSE">MIT</a> Licensed.
+            <Link to="/docs">Storybook</Link>
           </div>
         </Right>
       </Inner>

@@ -8,8 +8,9 @@ import { StyledNavigation, Inner, Brand, Nav, Item, Social } from './styled';
 
 const items = [
   { label: 'Home', to: '/' },
-  { label: 'Markdown', to: '/markdown/' },
-  { label: 'Storybook', href: '/docs/' },
+  { label: 'Hardware', to: '/hardware/' },
+  { label: 'Software', to: '/software/' },
+  // { label: 'Markdown', to: '/markdown/' },
 ];
 
 const social = [
@@ -22,7 +23,7 @@ const social = [
         />
       </svg>
     ),
-    href: 'https://github.com/South-Paw/awesome-gatsby-starter',
+    href: 'https://github.com/Helpful-Engineers/resources',
   },
 ];
 
