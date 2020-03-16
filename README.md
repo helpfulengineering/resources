@@ -8,12 +8,12 @@ A good starting point is our [Start document](https://docs.google.com/document/d
 
 In order to submit a new idea, please refer to the following [template.](https://github.com/Helpful-Engineers/resources/blob/master/software/template.md)
 
-Once your proposal is ready, you can both share it in the `#software-project-proposal` room. Clone this repo and create a new branch with the format PROJECT-[your-project-name] and submit a PR to this repo.  Reach out to our slack channel #software for any questions.
+Once your proposal is ready, you can both share it in the `#software-project-proposal` room. Clone this repo and create a new branch with the format PROJECT-[your-project-name] and submit a PR to this repo.  Reach out to our slack channel `#software` for any questions.
 
 Other software channels:
 * `#medical-software` Main landing channel with general discussion.
 * `#software`: Discussions on ongoing projects: ask for help, beta testers, bugs etc
-* `#meta-proposals-discussion`: Discussions on hardware and software application (web), and software (data science) proposals.  
+* `#meta-proposals-discussion`: Discussions on hardware and software application (web), and software (data science) proposals.
 
 ## Repo structure
 
@@ -35,10 +35,6 @@ hardware
 ## Helpful Engineering Software Projects Sign-Up:
 [Register yourself here](https://docs.google.com/forms/d/1PXSmMU-MOshe-qZCk3wqHHxA8LN6gN5VSj_gWCABjGQ/viewform?edit_requested=true)
 
-## Official Projects Repositories:
-|Project name|Repository URL|Slack Channel|
-|-|-|-|
-|Neighbourhood Assistance|https://github.com/puzzledbytheweb/neighborhood-assistance|#neighborhood-assistance|
 
 ## Please feel free to migrate some projects from the official list to the github repo if you feel like.
 
