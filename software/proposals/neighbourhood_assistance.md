@@ -9,9 +9,10 @@ title: "Neighbourhood Assistance"
 | Tags           |      |
 | Created Date   |      |
 | Author         | Doug |
-| Leads          | Jao Faria, Lucia Carreira |
-| Slack Channel  |      |
+| Leads          | Joao Faria, Lucia Carreira, Pedro Filipe, Shayan Chowdhury |
+| Slack Channel  | #neighborhood-assistance |
 | Trello Board   | https://trello.com/b/2QLITR5U/neighbourhood-assistance |
+| Github         | https://github.com/puzzledbytheweb/neighborhood-assistance|
 
 ## 📃 Idea in brief: Question to be resolved and why
 
