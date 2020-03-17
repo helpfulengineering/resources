@@ -63,16 +63,31 @@ Help with self-identifying illness and contat-tracing coronavirus infections.
 
 ### What it is not
 * A way to communicate between individuals (this is not a messaging app, and all information will be anonymized)
-* An API endpoint for querying where ill people are (yet?)
+* A public API endpoint for querying where ill people are (yet?)
 * A green stamp for businesses/houses that they are "covid-19-free"
 
 ### Design
 High-level design: 
 https://www.lucidchart.com/invitations/accept/69660f40-a372-4f56-bb7f-4246684c3fa4
 
-Engineering Design Points:
-https://docs.google.com/document/d/1BF6hop4ihrzJmXGzjFW1yqiUCwWhthljHKkFzrMQO3k/edit?usp=sharing 
+Components: 
+1. Global Database:
+	* Stores the information for users, by region
+		* Needs to be indexable by region
+	* Needs an API endpoint for querying it by region (map-tile)
+	* Potentially needs to periodically compute a downsampled map, every X-hours for different regions
 
+2. Web App:
+	* View 1: local view, which queries the database for location data of sick people in a region
+	* View 2: regional/global heatmap view of ill/healthy users (denoting percentages of healthy/ill)
+		* Open question- will this be computed on device, or in the cloud/database
+
+3. Phone app:
+	* Phone app stores local geo-data in a private cache 
+		* Open Question: will this be GPS data which can be costly on energy, or perhaps wifi-networks-geo-location data?
+		* May need to do low-battery mode where it stores location data less frequently
+	* If user marks themselves as ill, app sends location data to global database.
+	* Feature: Phone app queries database periodically and checks if user has come into contact with users
 
 ### Data/Experiments
 
