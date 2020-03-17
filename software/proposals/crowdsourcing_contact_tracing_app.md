@@ -98,7 +98,10 @@ Components:
 		* Open Question: will this be GPS data which can be costly on energy, or perhaps wifi-networks-geo-location data?
 		* May need to do low-battery mode where it stores location data less frequently
 	* If user marks themselves as ill, app sends location data to global database.
-	* Feature: Phone app queries database periodically and checks if user has come into contact with users
+	* Phone app queries database periodically and checks if user has come into contact with regions that are contaminated 
+	* Phone app calculates what users it's come into contact with (coexisted in the same place) (users are stored as uids). Phone stores users for 14 days; if any a user marks themselves as ill, all those who have interacted with them are notified that they are potentially infected. Graph-jumping is possible here, but I'm not sure how deep this recursion should go.
+		
+
 
 ### Data/Experiments
 
