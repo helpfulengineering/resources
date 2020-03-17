@@ -27,6 +27,8 @@ See: https://docs.google.com/document/d/1UQCywLH887-IzYAxvYp6REkH-uN9XBqZUPMVhWi
 
 Software to help people organize neighborhood assistance.
 
+Aggregating volunteer organizations and queuing requests for assistance to create a clearinghouse so that the right resources get to the people most in need in the most efficient manner.
+
 ### 🤔 Assumptions
 
 * Not needed for general neighbourhood help but will help if testing becomes available at some point
@@ -52,6 +54,25 @@ Software to help people organize neighborhood assistance.
 ## 😅 Known Issues
 
 Many.  See: https://docs.google.com/document/d/1UQCywLH887-IzYAxvYp6REkH-uN9XBqZUPMVhWiEho0/edit#heading=h.jcxgjea94ffj
+
+## Onboarding Document Link
+https://docs.google.com/document/d/1Ccm1j_mpOoVJM8-90UxoQyppyp0FvsMgkie9few96X4/edit
+
+### Trello board
+https://trello.com/invite/b/2QLITR5U/4375c4a349da8a7a88d8302368899a62/neighbourhood-assistance
+
+### Backend / API repo: 
+https://github.com/puzzledbytheweb/neighborhood-assistance
+
+### Frontend / UI repo: 
+https://github.com/comoser/neighborhood-assistance-web
+
+### Contributors
+https://docs.google.com/spreadsheets/d/1HOhIguRcVHtiFq7fGSgdDP_XMhWLiDh_PsFm0X7U_8c/edit#gid=0
+
+### Technical Leads (slack names)
+@Pedro Filipe
+@Shayan Chowdhury
 
 ## ✅ "I've read this" section
 
