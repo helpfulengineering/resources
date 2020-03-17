@@ -72,7 +72,7 @@ https://docs.google.com/spreadsheets/d/1HOhIguRcVHtiFq7fGSgdDP_XMhWLiDh_PsFm0X7U
 
 ### Technical Leads (slack names)
 @Pedro Filipe
-
+@Shayan Chowdhury
 
 ## ✅ "I've read this" section
 
