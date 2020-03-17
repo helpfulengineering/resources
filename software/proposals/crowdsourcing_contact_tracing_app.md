@@ -31,6 +31,8 @@ Help with self-identifying illness and contat-tracing coronavirus infections.
 2.  People have no way to inform the people who are around them, currently or previously that they have been infected. 
 3. Being able to know that someone who has been ill with covid-19 will change people's behaviors to either avoid regions, or clean themselves, surfaces around them. 
 4. Contact tracing might produce a lot of noise in cities (which might appear to be entirely covered in covid-19), but in towns and small cities, this could help individuals isolate themselves from potentially dangerous areas.
+5. The last 72 hours is enough location data regarding the covid-19 :
+	* "HCoV-19 was most stable on plastic and stainless steel and viable virus could be detected up to 103 72 hours post application (Figure 1B), though by then the virus titer was greatly reduced (polypropylene from 103.7 to 100.6 TCID50/mL after 72 hours, stainless steel from 103.7 to 100.6 104 TCID50/mL after 48 hours, 105 mean across three replicates)" https://www.medrxiv.org/content/10.1101/2020.03.09.20033217v1.full.pdf
 
 
 ### 🤔 Assumptions
@@ -48,7 +50,9 @@ Help with self-identifying illness and contat-tracing coronavirus infections.
 2 features exist as part of the MVP:
 
 1. A mobile app that will locally store people's locations, unless they self-report that they are showing illness.
-
+	* App will notify people if they have been in contact with a region that has had coronavirus (by quering the database) since the last time they have checked in. After this, they can mark "cleaned", which will reset the corona tracking counter.
+		* Rationale for this being that figuring out if people have been in contact with other people, directly, is hard, but you get that for free if you are tracking regions people have been in (as you cannot interact with someone without being in the same place.) 
+		* This might potentially fit better as a V2 feature.
 	* Privacy feature : People might not want to betray personal information. There should be configurable regions “privacy zones” (i.e. .1 miles around home). Strava has this functionality
 2. A web portal that has global map that will show where those who are suspected to be ill have been, starting from 72 hours prior to becoming ill.
 	* view 1: local region (i.e. zip code, or 50 mile square radius around a lat/long)
@@ -93,9 +97,8 @@ Components:
 
 V2 (..repeat the process)
 
-Added features to the mobile app:
+Added features to the mobile app: 
 
-* App will notify people if they have been in contact with a region that has had coronavirus (by quering the database) since the last time they have checked in. After this, they can mark "cleaned", which will reset the corona tracking counter.
 * Business coordination : For locations that have their addresses publicly listed on google/yelp, send out emails/texts to those people.
 
 Added feature to the web-app/database:
