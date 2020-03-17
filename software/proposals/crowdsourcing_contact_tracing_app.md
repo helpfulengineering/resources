@@ -48,7 +48,7 @@ Help with self-identifying illness and contat-tracing coronavirus infections.
 2 features exist as part of the MVP:
 
 1. A mobile app that will locally store people's locations, unless they self-report that they are showing illness.
-	* App will notify people if they have been in contact with a region that has had coronavirus (by quering the database) since the last time they have checked in. After this, they can mark "cleaned", which will reset the corona tracking counter.
+
 	* Privacy feature : People might not want to betray personal information. There should be configurable regions “privacy zones” (i.e. .1 miles around home). Strava has this functionality
 2. A web portal that has global map that will show where those who are suspected to be ill have been, starting from 72 hours prior to becoming ill.
 	* view 1: local region (i.e. zip code, or 10 mile square radius around a lat/long)
@@ -63,7 +63,7 @@ Help with self-identifying illness and contat-tracing coronavirus infections.
 
 ### What it is not
 * A way to communicate between individuals (this is not a messaging app, and all information will be anonymized)
-* An API endpoint for querying where ill people are
+* An API endpoint for querying where ill people are (yet?)
 * A green stamp for businesses/houses that they are "covid-19-free"
 
 ### Design
@@ -78,7 +78,7 @@ V2 (..repeat the process)
 
 Added features to the mobile app:
 
-* People coordination: For people who also have the app, ping people about locations that they have come into contact with that have people who have fallen ill.
+* App will notify people if they have been in contact with a region that has had coronavirus (by quering the database) since the last time they have checked in. After this, they can mark "cleaned", which will reset the corona tracking counter.
 * Business coordination : For locations that have their addresses publicly listed on google/yelp, send out emails/texts to those people.
 
 
@@ -91,8 +91,10 @@ Added features to the mobile app:
 ## 🙌 Criteria for Success
 
 1. Number of users in a county, by percent of people in the county. Ideally in some regions we can have >50% - this is easier in smaller areas.
-2. Webportal is up 99.9% of time
-3. updates from ill-users are near-real-time at ~every 5 minutes
+2. updates from ill-users are near-real-time at ~every 5 minutes
+3. healthy users query their personal location data against the global database efficiently, every n minutes (initial proposal: 5 minutes?).
+3. Webportal is up 99.9% of time
+4. Database up 99.9% of the time
 
 ## 😅 Known Issues
 	* None yet
