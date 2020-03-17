@@ -23,7 +23,7 @@ Right now, places like the US do not have enough testing kits to have a governme
 
 ### 💥 Problem
 
-Help with self-identifying illness and contat-tracing coronavirus infections. 
+Help with self-identifying illness and contact-tracing coronavirus infections. 
 
 ### 👨‍🔬Hypothesis
 	
@@ -58,24 +58,30 @@ Help with self-identifying illness and contat-tracing coronavirus infections.
 		* This should only be stored locally, and completely anonymous
 		* This might potentially fit better as a V2 feature.  
 
-	* Privacy feature : People might not want to betray personal information. There should be configurable regions “privacy zones” (i.e. .1 miles around home). Strava has this functionality
+	* Privacy feature : People might not want to betray personal information. There should be configurable regions “privacy zones” (i.e. .1 miles around home). Strava has this functionality.
 2. A web portal that has global map that will show where those who are suspected to be ill have been, starting from 72 hours prior to becoming ill.
-	* view 1: local region (i.e. zip code, or 50 mile square radius around a lat/long)
+	* view 1: local region (i.e. zip code, or 50 mile square radius around a lat/long).
+	* web-app has added view: global/regional map, with downsampled hot/cold zones colored by intensity
+		* Potentially a v2 feature
 
 3. A global location database that stores anonymized location data
 	* global data will likely be too much to process in the browser, so downsampling will need to be processed for the global view
 
 
 ### What it is
+* The goal is to help users know:
+	1. what areas to avoid
+	2. when to do a full-clean of their things.
+
 * A webportal with granularity down to 10m (whatever gps/wifi-network-mapping provides) showing places that suspected-ill people have gone
-* The goal is to help people know: what areas to avoid, and when to do a full-clean of their things.
+
 
 ### What it is not
 * A way to communicate between individuals (this is not a messaging app, and all information will be anonymized)
 * A public API endpoint for querying where ill people are (yet?)
 * A green stamp for businesses/houses that they are "covid-19-free"
 * A way for organizations to track down ill people
-* A way for anyone but user to know information about their potential illness.
+* A way for anyone but the user to know information about their potential illness.
 
 ### Design
 High-level design: 
@@ -111,9 +117,7 @@ Added features to the mobile app:
 
 * Business coordination : For locations that have their addresses publicly listed on google/yelp, send out emails/texts to those people.
 
-Added feature to the web-app/database:
 
-* web-app has added view: global/regional map, with downsampled hot/cold zones colored by intensity
 
 ## 💪 Impact of Potential Solution
 1. flattening the curve!
