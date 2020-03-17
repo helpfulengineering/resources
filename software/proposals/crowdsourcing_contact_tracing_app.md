@@ -51,8 +51,8 @@ Help with self-identifying illness and contat-tracing coronavirus infections.
 
 	* Privacy feature : People might not want to betray personal information. There should be configurable regions “privacy zones” (i.e. .1 miles around home). Strava has this functionality
 2. A web portal that has global map that will show where those who are suspected to be ill have been, starting from 72 hours prior to becoming ill.
-	* view 1: local region (i.e. zip code, or 10 mile square radius around a lat/long)
-	* view 2: global/regional map, with downsampled hot/cold zones colored by intensity
+	* view 1: local region (i.e. zip code, or 50 mile square radius around a lat/long)
+
 3. A global location database that stores anonymized location data
 	* global data will likely be too much to process in the browser, so downsampling will need to be processed for the global view
 
@@ -70,6 +70,8 @@ Help with self-identifying illness and contat-tracing coronavirus infections.
 High-level design: 
 https://www.lucidchart.com/invitations/accept/69660f40-a372-4f56-bb7f-4246684c3fa4
 
+Engineering Design Points:
+https://docs.google.com/document/d/1BF6hop4ihrzJmXGzjFW1yqiUCwWhthljHKkFzrMQO3k/edit?usp=sharing 
 
 
 ### Data/Experiments
@@ -81,6 +83,9 @@ Added features to the mobile app:
 * App will notify people if they have been in contact with a region that has had coronavirus (by quering the database) since the last time they have checked in. After this, they can mark "cleaned", which will reset the corona tracking counter.
 * Business coordination : For locations that have their addresses publicly listed on google/yelp, send out emails/texts to those people.
 
+Added feature to the web-app/database:
+
+* web-app has added view: global/regional map, with downsampled hot/cold zones colored by intensity
 
 ## 💪 Impact of Potential Solution
 1. flattening the curve!
