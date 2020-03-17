@@ -7,6 +7,8 @@ title: "Self Monitoring App O2"
 
 ### Update 17-mar-2020
 
+We have a hospital that is interested in our solution: "crisis unit of the Lombardy Region (italy) on the Covid-19 emergency contacted us because they want to provide people with mild forms of infection with the device to measure peripheral oxygen saturation, so that patients can monitor themselves and go to the emergency room only in case their conditions worsen. They are interested in testing and eventually roll out our app as soon as we are ready and we have accurate results. There is real need to accelerate the mission 2 stream."
+
 - [Sign up for the team here](https://docs.google.com/spreadsheets/d/1LGEJGk7nFnioGLAseDu19FJNqueTGQdMtTXCLx9Jm-Q/edit#gid=0)
 - [Check the trello board here](https://trello.com/b/6v7ox18R/self-monitoring-o2)
 - [Check the google doc with 100% of the notes here](https://docs.google.com/document/d/1RsmD6YvheHjNJbWQv5J8DrjaoDcllK2K8nlzDzkdE4w/edit#)
