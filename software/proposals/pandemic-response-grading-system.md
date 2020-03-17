@@ -85,3 +85,4 @@ Add in the table below the people you definitely want their eyes on this proposa
 | Mark Xu | Not Read |
 | Michael Sparks | Not Read | 
 | Shayan Chowdhury | Not Read|
+| Paulo Ferreira | Read |
