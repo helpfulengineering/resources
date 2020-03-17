@@ -5,6 +5,16 @@ title: "Self Monitoring App O2"
 
 **Zero2: Self-monitoring app**
 
+### Most recent project description
+**We are building a health tool on mobile to support individuals in checking their health and to provide accurate aggregated insights to the emergency medical crisis units ( in conversation with health crisis units of Regione Lombardia Italy).
+**Outcomes**
+- measure blood oxygen saturation with any mobile phone's camera (yes, it's really possible!)
+- maximise the amount and quality of data the individual is able to share with the medical operator via telemedicine.
+- maximise data aggregation and create a predictive model for the health system
+- Minimise short supply, complex production and distribution timeframe of dedicated pulse oximetry devices to monitor individual with mild symptoms
+- allow individuals to notice a drop in oxygen saturation before infection symptoms arise
+- allow individuals to be discharged and track their oxygen saturation values to track health
+
 ### Update 17-mar-2020
 
 We have a hospital that is interested in our solution: "crisis unit of the Lombardy Region (italy) on the Covid-19 emergency contacted us because they want to provide people with mild forms of infection with the device to measure peripheral oxygen saturation, so that patients can monitor themselves and go to the emergency room only in case their conditions worsen. They are interested in testing and eventually roll out our app as soon as we are ready and we have accurate results. There is real need to accelerate the mission 2 stream."
