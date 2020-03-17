@@ -1,0 +1,86 @@
+📃 Idea in brief: Question to be resolved and why
+
+💥 Problem
+Given the lack of COVID-19 test kits available and the current duration of the tests, being able to help doctors diagnose faster is critical.
+An alternative would be to help prognosis instead of diagnosis.
+
+👨‍🔬Hypothesis
+One of the potential ways to accelerate COVID-19 diagnostics is to help doctors by using deep learning to analyze medical images of patients (CT or MRI, chest X-Rays or other) and producing a set of relevant annotations/information to help them make a faster, more accurate or resource saving diagnostic or prognosis.
+
+🤔 Assumptions
+That such a solution be relevant in the current crisis
+That doctors can understand and find the additional data provided to them relevant
+That such a solution has a positive ROI in the current context - that it saves either time, resources or makes doctor’s diagnostics more accurate
+
+💻Implementation Suggestion
+
+Four phases:
+Phase I - Data Collection & Annotation
+Phase II - Training
+Phase III - Validation
+
+V1
+[Phase I - Data Collection & Annotation]
+
+What it is
+Collecting a large data set of anonymized medical images of patients (CT or MRI, chest X-Rays or other) annotated with relevant data: either areas of interest on the images or diagnostic data and anonymized patient profile. Data set must include both COVID-19 patient data and non-COVID-19 patient data.
+System must comply with privacy and health care data regulation in place and might need to be regionalized from the start due to the diversity of regulatory frameworks.
+What it is not
+Not yet a system to analyze the data - first a way to collect consistent and coherent data sets
+
+Design
+(Screenshot/drawing)
+
+Data/Experiments
+
+V2
+[Phase II - Training]
+
+What it is
+One or more deep-learning system capable of classifying or annotating cases. Results can be areas of interest, positive or negative analysis with associated probabilities, etc.
+The resulting analysis would support a doctor to be able to make a diagnosis, but would not provide such a diagnosis, just the analysis.
+An alternative would be to help prognosis instead of diagnosis. This would help doctors identify which are the cases with best against poor prognosis to better prioritize, plan treatment and manage resources. 
+Those systems must comply with privacy and health care data regulation in place and might need to be regionalized from the start due to the diversity of regulatory frameworks.Those systems also might be classified as medical devices and might need to follow a MedDevice regulatory framework.
+What it is not
+A diagnostic system trying to replace a doctor or a validated system that can be used yet by most doctors to help them analyze images.
+
+Design
+(Screenshot/drawing)
+
+Data/Experiments
+
+V3
+[Phase II - Validation]
+
+What it is
+Interactive session with doctor to validate the output of the above mentioned systems and identify any deficiency in such analysis. Such validation is critical and results might vary per region, country, strain, etc.
+Once the validation is done, the validated system could then be deployed in accordance to medical regulations
+
+What it is not
+A diagnostic system trying to replace a doctor.
+
+Design
+(Screenshot/drawing)
+
+Data/Experiments
+
+💪 Impact of Potential Solution
+Be able to speed up the diagnosis cycle for COVID-19 by helping doctors through the addition of relevant analytical data leveraging learning from past cases through deep learning.
+
+🙌 Criteria for Success
+As described in the article "Relation Between Chest CT Findings and Clinical Conditions of COVID-19 Pneumonia" (https://www.ajronline.org/doi/10.2214/AJR.20.22976) the authors described four distributions: craniocaudal, transverse, lung region, and scattered. And a CT score system was used to evaluate the extent of disease. A faster and not so sample-dependent implementation could be done with "classic" Machine Learning algorithms instead of deep Learning, or do not use Machine Learning at all, since this will be supervised anyway.
+(Main KPIs, metrics to evaluate and results to achieve)
+
+😅 Known Issues
+
+Is this useful for doctors to speed up diagnosis or not?
+Can we get the training data? 
+Can we get enough (1K, 10K, 100K) data?
+Can we get labeling done?
+Can we maintain health care data privacy?
+Would this be classified as a medical device?
+
+Sources
+Radiology section in https://coronavirustechhandbook.com/doctors
+Known data sources: https://github.com/ieee8023/covid-chestxray-dataset
+Know previous experience: https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/?__s=f4db6hdm266znhdzsarw 
