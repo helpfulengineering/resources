@@ -24,7 +24,7 @@ the ones with the greatest probability of meaningful action must be given priori
    
 *Proposed assessment scale.*
 
-Rate & review each proposal on an 80-point scale, then use community votes to select the top 5 proposals.
+Rate & review each proposal on an 100-point scale, then use community votes to select the top 5 proposals.
 
 1. Feasiblity = 30 points total
 • Human capital = 5 points—we have access to a fairly diverse talent pool, so this should hold less weight.
