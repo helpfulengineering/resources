@@ -57,5 +57,5 @@ Add in the table below the people you definitely want their eyes on this proposa
 |-|-|
 |  |  Read/Not Read    |
 
-## Post-Pull Request Proposal Update 
+## Post-Submission Proposal Update 
 Please update the status of your proposal here.  Add any url to mockups, graphics, test servers, etc.
