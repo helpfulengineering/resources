@@ -1,60 +1,75 @@
+
 ---
-path: "/projects/software/neighbourhood_assistance"
-title: "Neighbourhood Assistance"
+path: "/projects/software/neighbourhood_assistance.md"
+title: "Neighborhood Assistance Project - Covid Aid App"
 ---
 
 | | |
 |-|-|
-| Proposal Stage |  Draft (but already underway) |
-| Tags           |      |
-| Created Date   |      |
-| Author         | Doug |
-| Leads          | Joao Faria, Lucia Carreira, Pedro Filipe, Shayan Chowdhury |
-| Slack Channel  | #neighborhood-assistance |
-| Trello Board   | https://trello.com/b/2QLITR5U/neighbourhood-assistance |
-| Github         | https://github.com/neighborhood-assistance/info |
+| Proposal Stage |In progress      |
+| Tags           |Neighborhood, Community, Volunteer      |
+| Created Date   |March 14th      |
+| Lead           |Pedro Filipe, Shayan Chowdhury |
+| Slack Channel  |project-neighborhood-assistance       |
 
 ## 📃 Idea in brief: Question to be resolved and why
+**PIN** - Persons in Need (elderly, immunocompromised, quarantined)
+**CAV** - Community Area volunteer
+**OA** - Official Authority
 
 ### 💥 Problem
-
-People who are at high risk from COVID-19 or are quarantined are unable to leave their houses and obtain necessities like food and medical supplies without putting themselves or others at risk. We aim to facilitate support requests for these people and act as a bridge between them and reputable volunteer organizations that can help, such as government organizations, churches and local Red Cross establishments. These organizations are all reputable and conduct the appropriate background checks on their volunteers to ensure that no foul play happens. After all, we’re trying to create a safe and familiar environment that people can count on.
-
-More details. and information on how to get involved can be found on the
-[main project page](https://github.com/neighborhood-assistance/info)
+In a contention/quarantine mode, people tend to stay alone with their families at home. Those with special needs or with weak or no social support are more at risk. Common day to day activities during contention/quarantine days are of high risk for these people in need.
 
 ### 👨‍🔬Hypothesis
-
-Software to help people organize neighborhood assistance.
-
-Aggregating volunteer organizations and queuing requests for assistance to create a clearinghouse so that the right resources get to the people most in need in the most efficient manner.
+Have those in need of help/resources request it through their preferred means (app, SMS, website, etc.) and relay those to, either existing, trusted volunteer organizations, or local organizations led by neighbors (Community Area Volunteer). The organization will then lead the volunteer operation for shopping/pickup/delivery.
 
 ### 🤔 Assumptions
 
+ - People will use a system that is built on trust and is accessible
+ - People are creating volunteer groups within their communities that the locals trust
+ - Small Organizations are finding problems in scaling up and measuring their impact 
 ## 💻Implementation Suggestion
-
 ### V1
-
-### Lucia and Joao here
+Mobile app that allows Persons In Need to open requests in their behalf or on others'. Connecting them to small organizations by proximity and availability, and allowing those organizations to respond acordingly while measuring whether the requests were fulfilled or not.
 
 ### What it is
+A better way for established organizations and spontaneous organizations to coordinate volunteering efforts.
 
 ### What it is not
+This is not another volunteer organization aimed to fulfill aid requests.
 
 ### Design
-
+[Lucidchart - Workflow of the app (work in progress)](https://www.lucidchart.com/invitations/accept/4d81f65a-86b5-4684-b221-f67781b372f5)
+[Figma Mockups](https://www.figma.com/file/OiU7Tl4k1YFfqZQXxLaRrl/Neighborhood-Assistance?node-id=0%3A1)
 ### Data/Experiments
+What are the issues smaller but established organisations are having as they scale? We contacted some and they find difficulty in keeping up with the storage of data (mostly Google Sheets) and the coordination of the volunteers.
+
+### V2
+Introduce support for bigger organizations, facilitating registering of volunteers in our platform. Better severity assessment features so the organizations prioritize their effort better.
 
 ## 💪 Impact of Potential Solution
 
+ - Better support for isolated people due to quarantine, improving their
+   lives and the ones around them.
+ - Better resource management for organizations;
+
 ## 🙌 Criteria for Success
+
+ - Adoption rate/New users per day
+ - Request fulfillment rate
+ - Positive feedback from organizations
+ - Effective and healthy interaction between all actors
 
 ## 😅 Known Issues
 
-Many.  See: https://docs.google.com/document/d/1UQCywLH887-IzYAxvYp6REkH-uN9XBqZUPMVhWiEho0/edit#heading=h.jcxgjea94ffj
+ - Background check on volunteers
+ - Adoption of larger organizations
+ - Some interactions between actors will go wrong inevitably
 
-## ✅ "I've read this" section
+## Post-Submission Proposal Update 
 
-| Name | Status |
-|-|-|
-|  |  Read/Not Read    |
+ - [Lucidchart - Workflow of the app (work in
+   progress)](https://www.lucidchart.com/invitations/accept/4d81f65a-86b5-4684-b221-f67781b372f5)
+  - [Figma Mockups](https://www.figma.com/file/OiU7Tl4k1YFfqZQXxLaRrl/Neighborhood-Assistance?node-id=0%3A1)
+  - [Info Github Repo](https://github.com/covidaidapp/info)
+  
