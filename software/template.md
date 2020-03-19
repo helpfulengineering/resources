@@ -1,6 +1,7 @@
 ---
 path: "/projects/software/your_project_url_slug"
 title: "Your Project Name"
+url: your test server (if applicable)
 ---
 
 # The above values are used for the website, please make sure to fill them out.
@@ -48,9 +49,13 @@ V2 (..repeat the process)
 
 ## 😅 Known Issues
 
+
 ## ✅ "I've read this" section
 Add in the table below the people you definitely want their eyes on this proposal. Sometimes there are no comments to be made but it's good to know people have read the proposal
 
 | Name | Status |
 |-|-|
 |  |  Read/Not Read    |
+
+## Post-Pull Request Proposal Update 
+Please update the status of your proposal here.  Add any url to mockups, graphics, test servers, etc.
