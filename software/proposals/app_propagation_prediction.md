@@ -25,6 +25,7 @@ More info: https://docs.google.com/document/d/1UQCywLH887-IzYAxvYp6REkH-uN9XBqZU
 * https://github.com/sarusso/Covid-pred
 * http://covid-pred.xyz/predictions/ (author aware of various problems with it)
 * spreadsheet of UK with simple exponential  (no control measures or population dynamics modelled in)
+* http://www.dwh.at/en/news/the-power-of-the-abt-simulation-framework/ 
 
 ### 🤔 Assumptions
 
