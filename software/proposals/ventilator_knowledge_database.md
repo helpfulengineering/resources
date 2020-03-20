@@ -1,6 +1,6 @@
 ---
 path: "/projects/software/ventilator_knowledge_database"
-title: "Ventilator Knowledge Database"
+title: "VentCentral"
 ---
 | | |
 |-|-|
@@ -8,7 +8,7 @@ title: "Ventilator Knowledge Database"
 | Tags           | ventilator, database, repair guide |
 | Created Date   | 2020/Mar/15 |
 | Lead           | Victor Miranda |
-| Slack Channel  |      |
+| Slack Channel  | #project-ventcentral |
 
 ## 📃 Idea in brief: Question to be resolved and why
 Web and mobile app to track the status of ventilators in public hospitals and provide volunteers access to technical resources.
