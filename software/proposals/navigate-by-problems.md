@@ -9,8 +9,9 @@ title: "Navigate by problems"
 | Tags           |  organisation-meta, proposals    |
 | Created Date   |  19-Mar-2020    |
 | Lead           |  Ruskin Constant    |
-| Slack Channel  |  TBD, #software-project-proposal, #organisation-meta    |
+| Slack Channel  |  #project-airtable    |
 | Airtable  |  https://airtable.com/invite/l?inviteId=invV47G5a3S28ivsi&inviteToken=00e5599c76bbe09d5091f294ae7e7cb2a93e21326778a27d8a158ce93015449e (edit access)    |
+| Github repo  |  UI: https://github.com/jonnyparris/he-covid-project-explorer, Backend: TBC    |
 
 ## 📃 Idea in brief: Question to be resolved and why
 
