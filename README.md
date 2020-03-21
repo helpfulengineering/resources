@@ -2,7 +2,7 @@
 
 ## Software proposals
 
-The scope of this document is to aggregate all the software project proposals under [Helpful Engineering, Project Open air](https://www.projectopenair.org/). If you didn't join yet you can find our Slack group [here](https://join.slack.com/t/helpfulengineering/shared_invite/zt-csc50xh2-fUHR8BDGIqPDVyadU73roA).
+The scope of this document is to aggregate all the software project proposals under the Helpful Engineering initiative. If you didn't join yet you can find our Slack group in the [main page](https://helpfulengineering.org/).
 
 A good starting point is our [Start document](https://docs.google.com/document/d/1cM87eJdXhP_8e9gJJZ_SnZXdo_huWsBmMzcqYWbhEOg/edit#)
 
@@ -34,8 +34,5 @@ hardware
 
 ## Helpful Engineering Software Projects Sign-Up:
 [Register yourself here](https://docs.google.com/forms/d/1PXSmMU-MOshe-qZCk3wqHHxA8LN6gN5VSj_gWCABjGQ/viewform?edit_requested=true)
-
-
-## Please feel free to migrate some projects from the official list to the github repo if you feel like.
 
 
