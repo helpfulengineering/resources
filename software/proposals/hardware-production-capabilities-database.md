@@ -9,7 +9,7 @@ title: "Hardware Production Capabilities Database"
 | Tags           |      |
 | Created Date   | 14 March 2020 |
 | Lead           | Ruurd Moelker (proposal) |
-| Slack Channel  |      |
+| Slack Channel  | project-manufacturer-database |
 
 ## 📃 Idea in brief: Question to be resolved and why
 
