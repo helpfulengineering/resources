@@ -1,10 +1,10 @@
-# Helpful Engineering Security Best Practices
+# Helpful Engineering - Security Best Practices
 
 Security Slack channel: #skill-infosec
 
-We know that teams are rushing to bring their solutions to production, however we need to ensure that we are properly protecting all data that we capture and store.  A security breach could greatly reduce trust in what we are building and reduce our ability to help people in need.
+As all teams are rushing to bring their solutions to production, we need to ensure that we are properly protecting all data that we capture and store.  A security breach could severly reduce trust in what we are building and impact our ability to help those in need.
 
-Protecting PII checklist
+Protecting PII checklist:
 * Identify PII
 * Identify PII storage locations
 * Classify PII
@@ -20,7 +20,7 @@ Identify PII data that is in use, at rest, or in transit.
 ## Classify PII
 PII can generally be broken down into two categories: sensitive and non-sensitive
 
-Sensitive data should include but not be limited to
+Sensitive data should include but not be limited to:
 * Patients name
 * Patients Address
 * COVID-19 test results
