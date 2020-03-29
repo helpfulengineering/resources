@@ -24,6 +24,7 @@ Sensitive data should include but not be limited to
 * Patients name
 * Patients Address
 * COVID-19 test results
+* Medical professional contact information
 
 ## Acceptable Use Policy
 Define who can access PII and what they can do with it.  It is important to confirm someones identiy before they are giving access to PII.  This can be challenging because everyone contributing is a volunteer.  We have confirmed cases of scammers scraping contact information of medical facilities looking for supplies to sell them fake respirators.
