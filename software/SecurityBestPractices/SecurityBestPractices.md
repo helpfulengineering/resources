@@ -1,6 +1,9 @@
 # Helpful Engineering Security Best Practices
 
-This document outlines security guidelines for Helpful Engineering, If you have questions or comments please reach out to the #skill-infosec channel channel on slack.
+Security Slack channel: #skill-infosec
+
+We know that teams are rushing to bring their solutions to production, however we need to ensure that we are properly protecting all data that we capture and store.  A security breach could greatly reduce trust in what we are building and reduce our ability to help people in need.
+
 
 Protecting PII checklist
 
@@ -14,7 +17,7 @@ Protecting PII checklist
 Begin with identifying all PII that you collect, store, or process.  
 
 ## Identify PII Storage Locations
-Identify PII data that is in-use, at-rest, or in transit.
+Identify PII data that is in use, at rest, or in transit.
 
 ## Classify PII
 PII can generally be broken down into two categories: sensitive and non-sensitive
@@ -25,9 +28,15 @@ Sensitive data should include but not be limited to
 * COVID-19 test results
 
 ## Acceptable Use Policy
+Define who can access PII and what they can do with it.
+
+## Encrypt PII
+PII should be encrypted at rest and in transit.  Please see the [encryption best practices](Encryption.md) for more details.
 
 
-General Data Protection Regulation (GDPR)
+#Issue tracking
+If a security issue is found we will open a github issue detailing the bug and recommendations to remediate the issue.
 
+# General Data Protection Regulation (GDPR)
 
-Data Deletetion
+## Data Deletetion
