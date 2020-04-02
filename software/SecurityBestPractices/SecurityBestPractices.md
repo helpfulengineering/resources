@@ -2,7 +2,7 @@
 
 Security Slack channel: #skill-infosec
 
-As all teams are rushing to bring their solutions to production, we need to ensure that we are properly protecting all data that we capture and store.  A security breach could severly reduce trust in what we are building and impact our ability to help those in need.
+As all teams are rushing to bring their solutions to production, we need to ensure that we are properly protecting all data that we capture and store.  A security breach could severly reduce trust in what we are building and impact our ability to help those in need.  The central Helpful Engineering organization is here to provide guidance and resources to help secure your project.  
 
 Protecting PII checklist:
 * Identify PII
@@ -32,5 +32,5 @@ Define who can access PII and what they can do with it.  It is important to conf
 ## Encrypt PII
 PII should be encrypted at rest and in transit.  Please see the [encryption best practices](Encryption.md) for more details.
 
-# Issue tracking
-To request a penetration test please reach out to the #skill-infosec channel.  If a security issue is found we will open a github issue detailing the bug and recommendations to remediate the issue.
+# Penetration testing
+We have several resources and people available to help with penetration testings.  A development/QA environment will need to be made available to the team for testing.  To request a penetration test please reach out to the #skill-infosec channel.  Issues found will be documented by creating a github issue.
